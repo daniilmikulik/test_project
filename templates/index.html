@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+        <title> My bitly </title>
+    </head>
+    <body>
+        <form action="" method ="POST" class="modal">
+            <div>
+                <p> Please, paste your URL: </p>
+            </div>
+            <div>
+                <input type="url" id="url", name="url">
+                <input type="submit" id="submit"> <br>
+            </div>
+            <div>
+                <p> Your new url: </p>
+                <p id="new_url">{% if elem %}{{ elem }}{% else %} Empty {% endif %} </p>
+            </div>
+        </form>
+    </body>
+</html>

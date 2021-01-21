@@ -1,0 +1,73 @@
+body {
+  background-image: url("./background.png");
+}
+
+.modal{
+  padding: 30px;
+  background-color: #e9edf5;
+  border-width: 3px;
+  font-size: 24pt;
+  font-family: Arial;
+  display: block;
+  color: #14bdff;
+  border-color: blue;
+  border-radius: 10px;
+  width: 60%;
+  position: fixed; top: 50%; left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding-top: 0px;
+  overflow: hidden;
+}
+
+input#url {
+  background-color: #e9edf5;
+  border-radius: 5px;
+  border-color: #14bdff;
+  position: absolute;
+  width: 70%;
+  font-size: 70%;
+}
+
+input#submit {
+  background-color: #e9edf5;
+  color: #14bdff;
+  border-radius: 5px;
+  border-color: #14bdff;
+  float: right;
+  width: 20%;
+  font-size: 70%;
+}
+
+div {
+  clear: both;
+  font-size: 70%;
+}
+
+table {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 14px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th, td:first-child {
+  background: #AFCDE7;
+  color: white;
+  padding: 10px 20px;
+}
+
+th, td {
+  border-style: solid;
+  border-width: 0 1px 1px 0;
+  border-color: white;
+}
+
+td {
+  background: #D8E6F3;
+}
+
+th:first-child, td:first-child {
+  text-align: left;
+}
